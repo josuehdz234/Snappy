@@ -1,5 +1,5 @@
 <h1>Snappy</h1>
-Es un framework desarrollado para hacer consultas MySQL para PHP.
+Es un framework desarrollado para creación consultas MySQL en el entorno de dearrollo PHP.
 
 <h1>Instalación</h1>
 <pre>
