@@ -1,22 +1,21 @@
-1.
-##Snappy
-1.
+## Snappy
+
 Es un framework desarrollado para creación de queries(CRUD) para MySQL de PHP.
 
 Licencia de codigo abierto GNU LINUX.
 
 ## Caracteristicas
-1.
+
 * **Lijero** : menos de 940KB, Portable.
-1.
+
 * **Fuerza**: Admite consultas CRUD, es seguro y estable, previene ataques de datos por hackers, al igual que previene la inyeccion de base de datos
-1.
+
 * **Compatible**: compatibilidad con MySQL.
-1.
+
 * **Facil**: por su sencilles es facil de entender.
 
-1.
-##Instanciar.
+
+## Instanciar.
 
 Usa la clase <b>Snappy</b> para empezar a desarrollar queries(CRUD).
 <pre>
