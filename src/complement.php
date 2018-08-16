@@ -58,19 +58,21 @@
      * @param strign $url
      * @param strign $user
      */
-    function _INFO($msg='', $db='', $url='', $user=''){
+    function _INFO($msg='', $server='', $client='', $host='', $server_version='', $protocol=''){
         echo '
         <div class="_mg_34fgt">
             <div class="_cd_hj789">
                 <div class="_hd_78ujk">                    
-                    <span>Snappy '.$db.'</span>
+                    <span>Snappy</span>
                 </div>
                 <div class="_by_drf45">
                     '.$msg.'<br>
-                    <span class="xl"><i>'.$db.'</i>,</span>
-                    <span class="xl"><i>'.$url.'</i>,</span>
-                    <span class="xl"><i>'.$user.'</i></span>
-                    <span>obtenido de <i>install.php</i></span>
+                    <span class="xl"><i>'.$server.'</i>,</span>
+                    <span class="xl"><i>'.$client.'</i>,</span>
+                    <span class="xl"><i>'.$host.'</i></span>
+                    <span class="xl"><i>'.$server_version.'</i></span>
+                    <span class="xl"><i>'.$protocol.'</i></span>
+                    <span>Estado del servidor</span>
                     <div class="connect">
                         Conectado
                     </div>

@@ -1,22 +1,69 @@
-<h1>Snappy</h1>
-Es un framework desarrollado para creación consultas MySQL en el entorno de dearrollo PHP.
+1.
+#Snappy
+1.
+Es un framework desarrollado para creación de queries(CRUD) para MySQL de PHP.
 
-<h1>Instalación</h1>
+Licencia de codigo abierto GNU LINUX.
+
+## Caracteristicas
+1.
+* **Lijero** : menos de 940KB, Portable.
+1.
+* **Fuerza**: Admite consultas CRUD, es seguro y estable, previene ataques de datos por hackers, al igual que previene la inyeccion de base de datos
+1.
+* **Compatible**: compatibilidad con MySQL.
+1.
+* **Facil**: por su sencilles es facil de entender.
+
+1.
+##Instanciar.
+1.
+Usa la clase <b>Snappy</b> para empezar a desarrollar queries(CRUD).
 <pre>
-	
+
 	/*
 	 * Query
 	 *
-	 * -url_db: Dirección donde está tu base de datos
+	 * -sql-type: Tipo de gestor de base de datos
+	 * -url: Dirección donde está tu base de datos
 	 * -user: nombre de acceso a MySQL
 	 * -pass: Contraseña de acceso a MySQL
-	 * -db_name: Nombre de la base de datos
+	 * -db: Nombre de la base de datos
 	 */
 	include 'Snappy.php';
-	use Snappy/query;
-	$var = new query(-url_db, -user, -pass, -db_name);
+	use Snappy/Snappy;
+	$var = new query([
+		'type'   => -sql-type,
+		'server' => -url,
+		'user'   => -user,
+		'pass'   => -db,
+	]);
 
 </pre>
+<!--<h1>Metodos.</h1>
+
+<table>
+	<thead>
+		<tr>
+			<th>Metodo</th>
+			<th>Descripción</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>sring to(table)</th>
+			<th>Prepara una el nombre de la tabla mandada por parametro para una futura consulta</th>
+		</tr>
+		<tr>
+			<th>array add([, string $param => string $val])</th>
+			<th>Añade un nuevo campo a la tabla prepara en un pasado</th>
+		</tr>
+		<tr>
+			<th>sring to(table)</th>
+			<th>Prepara una el nombre de la tabla mandada por parametro para una futura consulta</th>
+		</tr>
+	</tbody>
+</table>-->
 <h1>to()</h1>
 Selecciona una tabla.
 <pre>
@@ -183,3 +230,5 @@ Asistente de ayuda
 	 */
 	$var->help(-method)
 </pre>
+
+<p>&copy; 2018 Spic for Developers</p>
