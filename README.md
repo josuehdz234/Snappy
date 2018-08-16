@@ -1,5 +1,5 @@
 1.
-#Snappy
+##Snappy
 1.
 Es un framework desarrollado para creación de queries(CRUD) para MySQL de PHP.
 
@@ -17,7 +17,7 @@ Licencia de codigo abierto GNU LINUX.
 
 1.
 ##Instanciar.
-1.
+
 Usa la clase <b>Snappy</b> para empezar a desarrollar queries(CRUD).
 <pre>
 
